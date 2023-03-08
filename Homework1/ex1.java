@@ -6,14 +6,14 @@ public class ex1
 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        System.out.println("Введите строку:");
         System.out.println(reverseWords(scan.nextLine()));
         scan.close();
     }
 
     public static String reverseWords(String s) {
         StringBuilder result = new StringBuilder();
-        String sentence = s;
-        String[] splitSentense = sentence.split(" ");
+        String[] splitSentense = s.split(" ");
         int len = splitSentense.length;
 
         for (int i = len - 1; i > 0; i--) {
