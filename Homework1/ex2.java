@@ -15,12 +15,12 @@ public class ex2 {
         int numRemember = 0;
         int sum = 0;
 
-        while(num != 0){ 
-            numRemember = num;           
+        while (num != 0) {
+            numRemember = num;
             System.out.println("Введите одно число и нажмите Enter");
             num = scan.nextInt();
 
-            if(num < 0){
+            if (num < 0) {
                 sum += numRemember;
             }
         }
