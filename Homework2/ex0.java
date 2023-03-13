@@ -1,6 +1,6 @@
-package Homework2;
+package Homework.Homework2;
 
-import Homework2.model.Vector;
+import Homework.Homework2.model.Vector;
 
 public class ex0 {
     public static void main(String[] args) {

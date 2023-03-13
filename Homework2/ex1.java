@@ -1,4 +1,4 @@
-package Homework2;
+package Homework.Homework2;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class ex1 {
         int[] nums = creatreArray(size);
         int[] minMax = enterMinMax();
         fillArrayRandom(nums, minMax);
-        // printArray(nums);
+        printArray(nums);
         System.out.println("Cумма простых чисел = " + summPrime(nums));
     }
 
