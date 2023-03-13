@@ -85,6 +85,6 @@
 
     }
 
-[Решение](Homework2/ex4.java)
+[Решение](../Homework2/ex4.java)
 
 ***
